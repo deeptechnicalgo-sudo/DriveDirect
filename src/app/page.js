@@ -459,9 +459,9 @@ export default function Home() {
         <div className="app-footer__container">
           <div className="footer-info">
             <div className="footer-brand-dots">
-              <Image src="https://drive.google.com/thumbnail?id=1T6vwQZzgyjDWzFD3IY1NE7hOnQDAUAII" alt="Project image" width={100} height={50} style={{ borderRadius: "5px" }} />
+              <a href="https://studio-star.vercel.app"> <Image src="https://drive.google.com/thumbnail?id=1T6vwQZzgyjDWzFD3IY1NE7hOnQDAUAII" alt="Project image" width={100} height={50} style={{ borderRadius: "5px" }} /></a>
             </div>
-            <span>© 2026 STAR Studio. Building web, mobile, and desktop applications.</span>
+            <a href="https://studio-star.vercel.app"><span>© 2026 STAR Studio. Building web, mobile, and desktop applications.</span></a>
           </div>
           <div className="footer-links">
             <Link href="/How">How to Use</Link>
